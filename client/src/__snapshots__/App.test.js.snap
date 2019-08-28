@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+<div
+  className="App"
+  style={
+    Object {
+      "marginTop": "150px",
+    }
+  }
+>
+  <article
+    className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center bg-hot-pink"
+  >
+    <main
+      className="pa4 black-80"
+    >
+      <form
+        className="measure"
+      >
+        <fieldset
+          className="ba b--transparent ph0 mh0"
+        >
+          <legend
+            className="f4 fw6 ph0 mh0"
+          >
+            Investment Calculator
+          </legend>
+          <div
+            className="mt3"
+          >
+            <label
+              className="db fw6 lh-copy f6"
+              htmlFor="subscription"
+            >
+              Monthly Subscription
+            </label>
+            <input
+              autoComplete="off"
+              className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+              id="subscription"
+              onChange={[Function]}
+              subscription="subscription"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="mt3"
+          >
+            <label
+              className="db fw6 lh-copy f6"
+              htmlFor="tenor"
+            >
+              Tenor(Months)
+            </label>
+            <input
+              autoComplete="off"
+              className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+              id="tenor"
+              name="tenor"
+              onChange={[Function]}
+              type="tenor"
+              value=""
+            />
+          </div>
+          <div
+            className="mv3"
+          >
+            <label
+              className="db fw6 lh-copy f6"
+              htmlFor="interest"
+            >
+              Interest Rate(Per annum)
+            </label>
+            <input
+              autoComplete="off"
+              className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+              id="interest"
+              name="interest"
+              onChange={[Function]}
+              type="interest"
+              value=""
+            />
+          </div>
+        </fieldset>
+        <div
+          className=""
+        >
+          <input
+            className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+            onClick={[Function]}
+            type="submit"
+            value="Calculate"
+          />
+          <div
+            className=""
+          >
+            <br />
+          </div>
+        </div>
+      </form>
+      <br />
+      <div
+        className=""
+      >
+        You should invest: 
+      </div>
+    </main>
+  </article>
+</div>
+`;

@@ -1,0 +1,32 @@
+schemes:
+  - http
+  - https
+paths:
+  /calculate:
+    post:
+      tags:
+        - Investment
+      summary: Calculates investment
+      produces:
+        - application/json
+      parameters:
+        - name: Subscription
+          description: Amount the user is willing to invest monthly
+          required: true
+          type: string
+          in: body
+        - name: Tenor
+          description: Number of months the investment will run for
+          required: true
+          type: string
+          in: body
+        - name: Interest
+          description: Interest rate per annum
+          required: true
+          type: string
+          in: body
+      responses:
+        200:
+          description: success
+        400:
+          description: error
